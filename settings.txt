@@ -1,54 +1,184 @@
-You will need to fill out this file for hand in. 
-
-The bellow is just an example, feel free to disregard this documents contents.
-
-
-Your final settings.txt will look something like this when you are finished:
-
 /////////////////////////////////
 
 Wallpaper 1:
+var CW = 40;//circle Width
+var CH = 40;//circle Height
+var CX = 100;// centreX when no transformations applied to canvas
+var CY = 100;//entreY when no transformations applied to canvas
+var P = 50;//
+var a = 40;//
+var LW = 3//strokeWeight
+var c = 20//rotation of canvas
 
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+//var detailColour = color('#2BBAA5');line 30
+//var dC2 = color(243,88,122);// line 31
+//var dC3 = color(255,213,77);// line 32
+//var dC4 = color(238,156,27);// line 33
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
 }
 
 /////////////////////////////////
-
 Wallpaper 2:
+var CW = 40;//circle Width
+var CH = 40;//circle Height
+var CX = 100;// centreX when no transformations applied to canvas
+var CY = 100;//entreY when no transformations applied to canvas
+var P = 80;//
+var a = 50;//
+var LW = 3//strokeWeight
+var c = 20//rotation of canvas
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+/////////////////////////////////
+Wallpaper 3:
+var CW = 40;//circle Width
+var CH = 60;//circle Height
+var CX = 50;// centreX when no transformations applied to canvas
+var CY = 70;//CentreY when no transformations applied to canvas
+var P = 120;//
+var a = 50;//
+var LW = 2//strokeWeight
+var c = 80//rotation of canvas
+
+//var detailColour = color('#2BBAA5');line 30
+//var dC2 = color(243,88,122);// line 31
+//var dC3 = color(255,213,77);// line 32
+//var dC4 = color(238,156,27);// line 33
+
+/////////////////////////////////
+Wallpaper 4:
+var CW = 40;//circle Width
+var CH = 60;//circle Height
+var CX = 0;// centreX when no transformations applied to canvas
+var CY = 100;//CentreY when no transformations applied to canvas
+var P = 0;//colour of FreeEye
+var a = 90;//
+var LW = 0//strokeWeight
+var c = 100//rotation of canvas
+
+//var detailColour = color('#2BBAA5');line 30
+//var dC2 = color(243,70,122);// changed colour
+//var dC3 = color(255,113,77);// changed colour
+//var dC4 = color(238,146,27);// changed colour
+
+/////////////////////////////////
+Wallpaper 5:
+var CW = 40;//circle Width
+var CH = 60;//circle Height
+var CX = 50;// centreX when no transformations applied to canvas
+var CY = 100;//CentreY when no transformations applied to canvas
+var P = 0;//colour of FreeEye
+var a = 90;//
+var LW = 0//strokeWeight
+var c = 90//rotation of canvas
+
+/////////////////////////////////
+Wallpaper 6:
+var CW = 40;//circle Width
+var CH = 60;//circle Height
+var CX = 125;// centreX when no transformations applied to canvas
+var CY = 0;//CentreY when no transformations applied to canvas
+var P = 200;//colour of FreeEye
+var a = 90;//
+var LW = 0//strokeWeight
+var c = 0//rotation of canvas
+
+//var detailColour = color('#2BBAA5');line 30
+//var dC2 = color(243,70,142);// changed colour
+//var dC3 = color(285,113,77);// changed colour
+//var dC4 = color(138,146,27);// changed colour
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); 
+}
+
+/////////////////////////////////
+Wallpaper 7:
+var CW = 40;//circle Width
+var CH = 40;//circle Height
+var CX = 105;// centreX when no transformations applied to canvas
+var CY = 100;//CentreY when no transformations applied to canvas
+var P = 70;//colour of FreeEye
+var a = 50;//
+var LW = 1//strokeWeight
+var c = 100//rotation of canvas
+
+//var detailColour = color('#2BBAA5');line 30
+//var dC2 = color(243,70,142);// 
+//var dC3 = color(285,113,77);// 
+//var dC4 = color(138,146,27);// 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 0;
+}
+
+/////////////////////////////////
+Wallpaper 8:
+var CW = 40;//circle Width
+var CH = 40;//circle Height
+var CX = 200;// centreX when no transformations applied to canvas
+var CY = 200;//CentreY when no transformations applied to canvas
+var P = 70;//colour of FreeEye
+var a = 200;//
+var LW = 1//strokeWeight
+var c = 100//rotation of canvas
+
+//var detailColour = color('#1FBAA9');line 30
+//var dC2 = color(243,88,142);// changed colour
+//var dC3 = color(255,113,77);// changed colour
+//var dC4 = color(238,146,27);// changed colour
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 200;
+}
+
+/////////////////////////////////
+Wallpaper 7:
+var CW = 0;//circle Width
+var CH = 0;//circle Height
+var CX = 50;// centreX when no transformations applied to canvas
+var CY = 50;//CentreY when no transformations applied to canvas
+var P = 0;//colour of FreeEye
+var a = 0;//
+var LW = 10//strokeWeight
+var c = 0//rotation of canvas
+
+//var detailColour = color('#1FBAA9');line 30
+//var dC2 = color(243,88,142);// changed colour
+//var dC3 = color(255,113,77);// changed colour
+//var dC4 = color(238,146,27);// changed colour
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false);
+  
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 700;
 }
